@@ -8,7 +8,7 @@ const NotFound = () => {
             // router.go(1)
             router.push('/')
        }, 3000)
-    },[])
+    },[router])
     return (
         <div className="not-found">
             <h1>Oooops...</h1>
