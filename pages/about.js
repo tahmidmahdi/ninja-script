@@ -1,12 +1,19 @@
+import Head from 'next/Head';
 import React from 'react';
 
 const about = () => {
     return (
-        <div>
-            <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iure.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iure.</p>
-        </div>
+        <>
+            <Head>
+                <title>Ninja List | About</title>
+                <meta name="keywords" content="ninjas" />
+            </Head>
+            <div>
+                <h1>About</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iure.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iure.</p>
+            </div>
+        </>
     );
 };
 
